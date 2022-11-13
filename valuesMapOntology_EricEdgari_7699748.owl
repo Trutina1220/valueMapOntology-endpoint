@@ -1,0 +1,2589 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#"
+     xml:base="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasGDPRProtectionPrinciple -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasGDPRProtectionPrinciple">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Acceptance_and_understanding_of_those_who_are_different_from_oneself -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Acceptance_and_understanding_of_those_who_are_different_from_oneself">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Accuracy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Accuracy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Face"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Achievement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Achievement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Success_according_to_social_standards"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ambitious"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#capable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#influential"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#successful"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Automated_processing_with_significant_effects -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Automated_processing_with_significant_effects">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Avoidance_of_upsetting_or_harming_other_people -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Avoidance_of_upsetting_or_harming_other_people">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Being_a_reliable_and_trustworthy_member_of_the_in-group -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Being_a_reliable_and_trustworthy_member_of_the_in-group">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Devotion_to_the_welfare_of_in-group_members"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#family_security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#forgiving"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#helpful"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honest"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-dependability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-dependability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Being_a_reliable_and_trustworthy_member_of_the_in-group"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#loyal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#responsible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_data_being_processed -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_data_being_processed">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_Minimisation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_recipients_data_is_shared_with -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_recipients_data_is_shared_with">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Integrity_and_Confidentiality"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Commitment_to_equality_justice_and_protection_for_all_people -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Commitment_to_equality_justice_and_protection_for_all_people">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Compliance_with_rules_laws_and_formal_obligations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Compliance_with_rules_laws_and_formal_obligations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-interpersonal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-interpersonal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Avoidance_of_upsetting_or_harming_other_people"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honor_parents"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#politeness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-rules -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-rules">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Compliance_with_rules_laws_and_formal_obligations"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#obedient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-discipline"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_Minimisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_Minimisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-sociental"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_no_longer_needed_for_original_purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_no_longer_needed_for_original_purpose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Devotion_to_the_welfare_of_in-group_members -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Devotion_to_the_welfare_of_in-group_members">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_consent_was_withdrawn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_consent_was_withdrawn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_data_is_no_longer_needed_for_original -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_data_is_no_longer_needed_for_original">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Excitement_novelty_and_change -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Excitement_novelty_and_change">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Existence_of_Rights -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Existence_of_Rights">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_ones_public_image_and_avoiding_humiliation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserving_public_image"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_recognition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-sociental"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_cultivate_ones_own_ideas_and_abilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_cultivate_ones_own_ideas_and_abilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_determine_ones_own_actions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_determine_ones_own_actions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Hedonism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Hedonism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Pleasure_and_sensuous_gratification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#pleasure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Humility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Humility">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Recognizing_one’s_insignificance_in_the_larger_scheme_of_things"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#accepting_my_portion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#humble"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-effacing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#If_and_where_Controller_is_processing_data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#If_and_where_Controller_is_processing_data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Third_Parties -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Third_Parties">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Integrity_and_Confidentiality -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Integrity_and_Confidentiality">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-rules"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_and_preserving_cultural_family_or_religious_traditions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_and_preserving_cultural_family_or_religious_traditions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_ones_public_image_and_avoiding_humiliation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_ones_public_image_and_avoiding_humiliation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#No_charges_levied -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#No_charges_levied">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_direct_marketing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_direct_marketing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Pleasure_and_sensuous_gratification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Pleasure_and_sensuous_gratification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_exercising_control_over_people"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#authority"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_power"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_control_of_material_and_social_resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wealth_possessions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_control_of_material_and_social_resources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_control_of_material_and_social_resources">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_exercising_control_over_people -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_exercising_control_over_people">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Preservation_of_the_natural_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Preservation_of_the_natural_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Processing_is_unlawful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Processing_is_unlawful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Provide_copy_of_Personal_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Provide_copy_of_Personal_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasImplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-action"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_of_access -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_of_access">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Automated_processing_with_significant_effects"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_data_being_processed"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Categories_of_recipients_data_is_shared_with"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Existence_of_Rights"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#If_and_where_Controller_is_processing_data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Processing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#No_charges_levied"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Source_of_Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Period"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_basic_information_about_processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_basic_information_about_processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Information_about_Third_Parties"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_data_portability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_data_portability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Provide_copy_of_Personal_Data"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_commonly_used_format"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_machine_readable"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_structured"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_support_reuse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_erasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_erasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_consent_was_withdrawn"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Erase_when_data_is_no_longer_needed_for_original"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_object -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_object">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_direct_marketing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Object_to_processing"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_rectification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_rectification">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_restrict_processing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_restrict_processing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_no_longer_needed_for_original_purpose"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Processing_is_unlawful"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#When_accuracy_is_contested"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_transparency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_transparency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#easily_accessible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#intelligible"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasRightSubProvision"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#transparent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Rights_over_automated_decision -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Rights_over_automated_decision">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_and_stability_in_the_wider_society -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_and_stability_in_the_wider_society">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_in_ones_immediate_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_in_ones_immediate_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_and_stability_in_the_wider_society"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#avoiding_indebtedness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#clean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#family_security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#healthy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#sense_of_belonging"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-sociental -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-sociental">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_and_stability_in_the_wider_society"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#national_security"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_order"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_determine_ones_own_actions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_goals"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#independent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-thought -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-thought">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_cultivate_ones_own_ideas_and_abilities"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#creativity"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#curious"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_commonly_used_format -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_commonly_used_format">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_machine_readable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_machine_readable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_structured -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_be_structured">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_support_reuse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Should_support_reuse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Source_of_Data -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Source_of_Data">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Stimulation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Stimulation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Excitement_novelty_and_change"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#exciting_life"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#seeking_adventure"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-resources"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Period -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Period">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Success_according_to_social_standards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Success_according_to_social_standards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Tradition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Tradition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_and_preserving_cultural_family_or_religious_traditions"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#devout"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect_tradition"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasExplicitLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Commitment_to_equality_justice_and_protection_for_all_people"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#equality_for_all"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_justice"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_at_peace"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Preservation_of_the_natural_environment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#protect_the_environment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#unity_with_nature"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_beauty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-tolerance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-tolerance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDefinition"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Acceptance_and_understanding_of_those_who_are_different_from_oneself"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#broadminded"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasValueItem"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wisdom"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#When_accuracy_is_contested -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#When_accuracy_is_contested">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Accuracy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#a_varied_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#a_varied_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#accepting_my_portion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#accepting_my_portion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#achieving_goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#achieving_goals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ambitious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ambitious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#aspiring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#aspiring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#authority -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#authority">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#avoiding_indebtedness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#avoiding_indebtedness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#broadminded -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#broadminded">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#capable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#capable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_goals -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_goals">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_purposes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_purposes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#clean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#clean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#competent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#competent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#concise -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#concise">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#control_over_others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#control_over_others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#courtesy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#courtesy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#creativity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#creativity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#curious -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#curious">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#daring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#daring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#dependable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#dependable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#devout -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#devout">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#easily_accessible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#easily_accessible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#equality_for_all -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#equality_for_all">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#exciting_life -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#exciting_life">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#faithful_to_friends -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#faithful_to_friends">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#family_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#family_security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#favors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#favors">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#feeling_others_care_about_me -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#feeling_others_care_about_me">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#forgiving -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#forgiving">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#genuine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#genuine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#having_an_impact_on_people_and_events -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#having_an_impact_on_people_and_events">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#healthy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#healthy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#helpful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#helpful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hold_religious_faith -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hold_religious_faith">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honor_parents -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honor_parents">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#humble -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#humble">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#imagination -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#imagination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#independent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#independent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#influential -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#influential">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#intelligible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#intelligible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDerivedLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#interested -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#interested">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#loyal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#loyal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#maintaining_face -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#maintaining_face">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#material_possessions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#material_possessions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#mature_understanding -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#mature_understanding">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#meet_obligations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#meet_obligations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#modest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#modest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#nation_safe_from_enemies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#nation_safe_from_enemies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#national_security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#national_security">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#neat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#neat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#not_sick -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#not_sick">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#obedient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#obedient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#on_data_subject -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#on_data_subject">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#pleasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#pleasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#politeness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#politeness">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserve_customs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserve_customs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserving_public_image -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserving_public_image">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#privacy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#privacy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#protect_the_environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#protect_the_environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#purpose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#purpose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#reciprocating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#reciprocating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#resist_temptation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#resist_temptation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect_tradition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect_tradition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#responsible -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#responsible">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#right_to_command -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#right_to_command">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#safety_for_loved_ones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#safety_for_loved_ones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#seeking_adventure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#seeking_adventure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-discipline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-discipline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-effacing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-effacing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-reliant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-reliant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#sense_of_belonging -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#sense_of_belonging">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#show_respect -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#show_respect">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_justice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_justice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_order">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_power -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_power">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_recognition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_recognition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#societal_stability -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#societal_stability">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#stimulating_experiences -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#stimulating_experiences">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#submitting_to_lifes_circumstances -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#submitting_to_lifes_circumstances">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#successful -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#successful">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tidy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tidy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tolerant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tolerant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#transparent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#transparent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hasDirectLink"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#unity_with_nature -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#unity_with_nature">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wealth_possessions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wealth_possessions">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#willing_to_pardon -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#willing_to_pardon">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wisdom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wisdom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#working_for_others_welfare -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#working_for_others_welfare">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_at_peace -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_at_peace">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_beauty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_beauty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Recognizing_one’s_insignificance_in_the_larger_scheme_of_things -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Recognizing_one’s_insignificance_in_the_larger_scheme_of_things">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#YES -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#YES"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Acceptance_and_understanding_of_those_who_are_different_from_oneself"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Avoidance_of_upsetting_or_harming_other_people"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Being_a_reliable_and_trustworthy_member_of_the_in-group"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Commitment_to_equality_justice_and_protection_for_all_people"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Compliance_with_rules_laws_and_formal_obligations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Devotion_to_the_welfare_of_in-group_members"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Excitement_novelty_and_change"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_cultivate_ones_own_ideas_and_abilities"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Freedom_to_determine_ones_own_actions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_and_preserving_cultural_family_or_religious_traditions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Maintaining_ones_public_image_and_avoiding_humiliation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Pleasure_and_sensuous_gratification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_control_of_material_and_social_resources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power_through_exercising_control_over_people"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Preservation_of_the_natural_environment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_and_stability_in_the_wider_society"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Safety_in_ones_immediate_environment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Success_according_to_social_standards"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Recognizing_one’s_insignificance_in_the_larger_scheme_of_things"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Accuracy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Data_Minimisation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Fairness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Integrity_and_Confidentiality"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Lawfulness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Purpose_Limitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Storage_Limitation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Transparency"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Achievement"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-caring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Benevolence-dependability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-interpersonal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Conformity-rules"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Hedonism"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Humility"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-dominance"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Power-resources"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-personal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Security-sociental"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-action"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Self-direction-thought"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Stimulation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Tradition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-concern"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-nature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Universalism-tolerance"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Definitions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#HumanValues"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ValuesItems"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Principle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_sub_provision"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#SubjectRight"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_of_access"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_basic_information_about_processing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_data_portability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_erasure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_object"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_rectification"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_restrict_processing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Right_to_transparency"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#Rights_over_automated_decision"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#a_varied_life"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#accepting_my_portion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#achieving_goals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#ambitious"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#aspiring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#authority"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#avoiding_indebtedness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#broadminded"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#capable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_goals"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#choosing_own_purposes"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#clean"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#competent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#control_over_others"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#courtesy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#creativity"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#curious"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#daring"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#dependable"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#devout"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#equality_for_all"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#exciting_life"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#faithful_to_friends"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#family_security"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#favors"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#feeling_others_care_about_me"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#forgiving"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#genuine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#having_an_impact_on_people_and_events"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#healthy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#helpful"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#hold_religious_faith"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#honor_parents"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#humble"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#imagination"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#independent"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#influential"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#interested"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#loyal"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#maintaining_face"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#material_possessions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#mature_understanding"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#meet_obligations"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#modest"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#nation_safe_from_enemies"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#national_security"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#neat"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#not_sick"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#obedient"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#politeness"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserve_customs"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#preserving_public_image"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#privacy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#protect_the_environment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#reciprocating"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#resist_temptation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#respect_tradition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#responsible"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#right_to_command"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#safety_for_loved_ones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#seeking_adventure"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-discipline"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-effacing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#self-reliant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#sense_of_belonging"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#show_respect"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_justice"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_order"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_power"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#social_recognition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#societal_stability"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#stimulating_experiences"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#submitting_to_lifes_circumstances"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#successful"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tidy"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#tolerant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#unity_with_nature"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wealth_possessions"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#willing_to_pardon"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#wisdom"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#working_for_others_welfare"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_at_peace"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#world_beauty"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

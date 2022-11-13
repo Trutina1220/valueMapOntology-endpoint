@@ -1,0 +1,7 @@
+PREFIX owl: http://www.w3.org/2002/07/owl#
+PREFIX rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+PREFIX rdfs: http://www.w3.org/2000/01/rdf-schema#
+PREFIX :http://www.semanticweb.org/erice/ontologies/2022/9/ValuesMapOntology#
+SELECT * WHERE {
+   :Accuracy ?pred ?obj.
+} LIMIT 50
